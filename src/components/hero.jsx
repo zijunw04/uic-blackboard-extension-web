@@ -30,13 +30,13 @@ export default function Hero() {
         viewport={{ once: true }}
         transition={{duration: 1}}
         
-        src="/images/example2.jpg" alt="" width="504" height="269" class=" absolute right-[188px] top-[500px] shadow-[0px_4px_7.8px_2px_rgba(0,0,0,0.25)]"></motion.img>
+        src="/images/example2.jpg" alt="" width="504" height="269" class=" absolute right-[188px] top-[400px] shadow-[0px_4px_7.8px_2px_rgba(0,0,0,0.25)]"></motion.img>
         <motion.img
         initial={{opacity: 0, x: -100}}
         whileInView={{opacity: 1, x:0}}
         viewport={{ once: true }}
         transition={{duration: 1}}
-        src="/images/example1.jpg" alt="" width="504" height="269" class="absolute right-[288px] top-[250px] shadow-[0px_4px_7.8px_2px_rgba(0,0,0,0.25)]"></motion.img>
+        src="/images/example1.jpg" alt="" width="504" height="269" class="absolute right-[288px] top-[150px] shadow-[0px_4px_7.8px_2px_rgba(0,0,0,0.25)]"></motion.img>
       </div>
     </div>
 
